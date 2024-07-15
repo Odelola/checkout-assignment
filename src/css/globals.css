@@ -1,0 +1,45 @@
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.site-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+section{
+  padding: 5rem 0px;
+  border-bottom: 1px solid rgb(159, 159, 159, 0.5);
+}
+
+
+/* FOR SWIPER */
+
+.swiper-wrapper {
+  height: max-content !important;
+ 
+  width: max-content;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "" !important;
+
+}
+
+.product-thumb .swiper-slide.swiper-slide-thumb-active>.slide\:border-indigo-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(79 70 229 / var(--tw-border-opacity));
+}
+.product-thumb .swiper-slide{
+  width: 100px !important;
+}
+.product-thumb .swiper-slide img{
+  width: 100%;
+}
