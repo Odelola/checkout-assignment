@@ -8,8 +8,8 @@ var swiper = new Swiper(".product-thumb", {
    
 });
 var swiper2 = new Swiper(".product-prev", {
-    loop: true,
-    spaceBetween: 32,
+    // loop: true,
+    spaceBetween: 1,
     effect: "fade",
    
     thumbs: {
